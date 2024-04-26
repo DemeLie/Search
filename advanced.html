@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="advanced-container">
+            <form id="adv-s" action="https://www.google.com/search">
+                <h3>Пошук за:</h3>
+                <h3></h3>
+                <h3>Всіма словами</h3>
+                <input class="adv-field" type="text" name="q">
+                <h3>Саме цим словом аб фразою</h3>
+                <input class="adv-field" type="text" name="as_epq">
+                <h3>Будь-яким з цих слів</h3>
+                <input class="adv-field" type="text" name="as_oq">
+                <h3>Без жодного з цих слів</h3>
+                <input class="adv-field" type="text" name="as_eq">
+                <button class="adv" type="submit">Advanced Search</button>
+            </form>
+            <button class="change-mod-button" onclick="window.location.href='index.html';">All</button>
+        </div>
+    </body>
+</html>
